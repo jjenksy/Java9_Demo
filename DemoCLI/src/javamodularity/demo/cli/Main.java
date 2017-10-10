@@ -2,6 +2,8 @@ package javamodularity.demo.cli;
 
 
 
+//import javamodularity.demo.response.internal.HelloResponse;
+
 import static javamodularity.demo.response.Hello.*;
 
 public class Main {
@@ -13,6 +15,8 @@ public class Main {
       }
 
       System.out.println("Response: " + hello(args[0]));
+
+     // System.out.println(HelloResponse.response("test"));
       
    }
      
