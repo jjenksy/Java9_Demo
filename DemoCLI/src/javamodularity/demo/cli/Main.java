@@ -12,7 +12,6 @@ public class Main {
          return;
       }
 
-      
       System.out.println("Response: " + hello(args[0]));
       
    }
